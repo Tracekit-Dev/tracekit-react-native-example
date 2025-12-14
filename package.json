@@ -1,0 +1,49 @@
+{
+  "name": "tracekit-react-native-example",
+  "version": "1.0.0",
+  "description": "Example app demonstrating TraceKit React Native APM integration",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native-community/netinfo": "^11.4.1",
+    "@react-navigation/native": "^7.1.25",
+    "@react-navigation/native-stack": "^7.8.6",
+    "@tracekit/react-native": "file:../tracekit-react-native",
+    "expo": "~54.0.29",
+    "expo-status-bar": "~3.0.9",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-safe-area-context": "^5.6.2",
+    "react-native-screens": "^4.18.0",
+    "react-native-web": "^0.21.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "typescript": "~5.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tracekit-Dev/tracekit-react-native-example.git"
+  },
+  "keywords": [
+    "tracekit",
+    "apm",
+    "monitoring",
+    "react-native",
+    "expo",
+    "example"
+  ],
+  "author": "TraceKit Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tracekit-Dev/tracekit-react-native-example/issues"
+  },
+  "homepage": "https://github.com/Tracekit-Dev/tracekit-react-native-example#readme"
+}
